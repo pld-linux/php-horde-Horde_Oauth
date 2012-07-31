@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Horde OAuth client/server
 Name:		php-horde-Horde_Oauth
-Version:	1.0.0
+Version:	1.0.2
 Release:	1
 License:	BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
-# Source0-md5:	fad463a4c50adcca1ce909644eb23f5c
+# Source0-md5:	067baa0bc72927dba722bd479439a552
 URL:		http://pear.horde.org/package/Horde_Oauth/
 BuildRequires:	php-channel(pear.horde.org)
 BuildRequires:	php-packagexml2cl
