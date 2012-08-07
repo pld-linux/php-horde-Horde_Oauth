@@ -4,7 +4,7 @@
 Summary:	%{pearname} - Horde OAuth client/server
 Name:		php-horde-Horde_Oauth
 Version:	1.0.2
-Release:	1
+Release:	2
 License:	BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
@@ -15,11 +15,11 @@ BuildRequires:	php-packagexml2cl
 BuildRequires:	php-pear-PEAR >= 1:1.7.0
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.610
+Requires:	php(hash)
+Requires:	php(openssl)
 Requires:	php-channel(pear.horde.org)
-Requires:	php-hash
 Requires:	php-horde-Horde_Exception < 2.0.0
 Requires:	php-horde-Horde_Http < 2.0.0
-Requires:	php-openssl
 Requires:	php-pear
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
