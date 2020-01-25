@@ -1,6 +1,5 @@
 %define		status		stable
 %define		pearname	Horde_Oauth
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Horde OAuth client/server
 Name:		php-horde-Horde_Oauth
 Version:	1.0.2
